@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EasyEarni-e² | Watch & Earn Videos</title>
+  <link rel="stylesheet" href="videos.css">
+</head>
+<body>
+  <div class="videos-container">
+    <h1 class="videos-title">Watch Videos &amp; Earn!</h1>
+    <div id="adminVideoUpload" class="video-upload-area">
+      <h3>Admin: Upload Today's Videos (Max 5)</h3>
+      <input type="file" id="videoUploadInput" multiple accept="video/*">
+      <button onclick="handleVideoUpload()">Upload Videos</button>
+      <div id="videoUploadMsg"></div>
+    </div>
+    <div class="video-balance-display">
+      Your Balance: <span id="videoUserBalance">KES 0</span>
+    </div>
+    <div id="videosList" class="videos-list"></div>
+  </div>
+  <script src="videos.js"></script>
+</body>
+</html>

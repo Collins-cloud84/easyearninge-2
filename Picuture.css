@@ -1,0 +1,13 @@
+body {
+  background: linear-gradient(135deg, #ffe29d 0%, #ffa6c1 50%, #b8c1ec 100%);
+}
+.pics-title {
+  color: #6a4c93;
+  text-shadow: 1px 1px 6px #ffb7b2;
+}
+.like-btn {
+  background: linear-gradient(90deg, #ffb7b2, #ffdac1);
+  color: #6a4c93;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(106,76,147,0.09);
+}

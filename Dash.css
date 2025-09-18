@@ -1,0 +1,91 @@
+body {
+  background: linear-gradient(130deg, #f7b6d2 0%, #b6f7e3 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.dash-container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(124, 92, 196, 0.16);
+  text-align: center;
+}
+
+.dash-title {
+  color: #B65CC4;
+  font-size: 2em;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+
+.balance-card {
+  background: linear-gradient(90deg, #5CC4B6, #B65CC4);
+  border-radius: 12px;
+  padding: 16px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.earnings {
+  margin-bottom: 24px;
+}
+
+.earn-type {
+  background: #f3f7ff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  margin: 10px 0;
+  font-size: 1.05em;
+}
+
+.earn-type button {
+  background: #B65CC4;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 0.98em;
+}
+
+.ref-link {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e8f3fd;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.ref-link input {
+  width: 80%;
+  border: none;
+  background: transparent;
+  font-size: 1em;
+  color: #B65CC4;
+}
+
+.ref-link button {
+  background: #5CC4B6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.graph-area {
+  margin-top: 24px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  padding: 16px;
+}

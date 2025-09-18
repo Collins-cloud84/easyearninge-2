@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EasyEarni-e² | Withdraw Funds</title>
+  <link rel="stylesheet" href="withdrawal.css">
+</head>
+<body>
+  <div class="withdraw-container">
+    <h1 class="withdraw-title">Withdraw Your Earnings</h1>
+    <div class="balance-display">
+      Current Balance: <span id="withdrawBalance">KES 0</span>
+    </div>
+    <form class="withdraw-form" onsubmit="return handleWithdraw(event)">
+      <input type="number" id="withdrawAmount" min="150" placeholder="Enter amount (Min 150 KES)" required>
+      <button type="submit">Request Withdrawal</button>
+      <p class="fee-note">10% service fee will be deducted. Minimum withdrawal is 150 KES.</p>
+      <p id="withdrawMsg"></p>
+    </form>
+    <h2 class="history-title">Withdrawal History</h2>
+    <table class="withdraw-table">
+      <thead>
+        <tr>
+          <th>Amount</th>
+          <th>Fee</th>
+          <th>Net Amount</th>
+          <th>Status</th>
+          <th>Date</th>
+          <th>Action (Admin)</th>
+        </tr>
+      </thead>
+      <tbody id="withdrawHistory"></tbody>
+    </table>
+  </div>
+  <script src="withdrawal.js"></script>
+</body>
+</html>

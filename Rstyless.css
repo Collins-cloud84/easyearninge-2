@@ -1,0 +1,84 @@
+body {
+  background: linear-gradient(120deg, #e2cef3 0%, #a0e3e2 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 32px 24px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(92,106,196,0.18);
+  text-align: center;
+}
+
+.brand-title {
+  color: #5C6AC4;
+  font-size: 2.5em;
+  margin-bottom: 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  color: #24b2a4;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.form input, .form select {
+  width: 90%;
+  padding: 10px 12px;
+  margin: 10px 0;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: border-color 0.2s;
+}
+
+.form input:focus, .form select:focus {
+  border-color: #5C6AC4;
+  outline: none;
+}
+
+.payment-info {
+  background: #f3efff;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 15px 0;
+  font-size: 1em;
+}
+
+.highlight {
+  color: #C45C7B;
+  font-weight: bold;
+}
+
+.register-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #5C6AC4, #24b2a4);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+
+.register-btn:hover {
+  background: linear-gradient(90deg, #24b2a4, #5C6AC4);
+}
+
+.success {
+  margin-top: 20px;
+  color: #24b2a4;
+  font-size: 1.1em;
+  background: #d8fff6;
+  border-radius: 8px;
+  padding: 12px;
+}

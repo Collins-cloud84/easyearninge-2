@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EasyEarni-e² Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="dash-container">
+    <h1 class="dash-title">Welcome, <span id="dashUsername">Username</span>!</h1>
+    <div class="balance-card">
+      <h2>Balance: <span id="balance">KES 0</span></h2>
+    </div>
+    <div class="earnings">
+      <div class="earn-type">
+        <span>Pictures/Videos Earned:</span> <span id="mediaEarnings">KES 0</span>
+        <button onclick="earnMedia()">Like Pic / Watch Video (+5 KES)</button>
+      </div>
+      <div class="earn-type">
+        <span>Level 1 Referrals:</span> <span id="level1Earnings">KES 0</span>
+        <button onclick="addReferral(1)">Add Level 1 Referral (+100 KES)</button>
+      </div>
+      <div class="earn-type">
+        <span>Level 2 Referrals:</span> <span id="level2Earnings">KES 0</span>
+        <button onclick="addReferral(2)">Add Level 2 Referral (+50 KES)</button>
+      </div>
+      <div class="ref-link">
+        <span>Referral Link:</span>
+        <input id="referralLink" value="https://easyearni-e2.com/register?ref=USERNAME" readonly />
+        <button onclick="copyReferralLink()">Copy</button>
+      </div>
+    </div>
+    <div class="graph-area">
+      <canvas id="progressChart"></canvas>
+    </div>
+  </div>
+  <script src="dashboard.js"></script>
+</body>
+</html>

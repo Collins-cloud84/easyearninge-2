@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EasyEarni-e² | Daily Pictures</title>
+  <link rel="stylesheet" href="pictures.css">
+</head>
+<body>
+  <div class="pics-container">
+    <h1 class="pics-title">Like Today's Pictures &amp; Earn!</h1>
+    <div id="adminUpload" class="upload-area">
+      <h3>Admin: Upload Today's Pictures (Max 5)</h3>
+      <input type="file" id="uploadInput" multiple accept="image/*">
+      <button onclick="handleUpload()">Upload</button>
+      <div id="uploadMsg"></div>
+    </div>
+    <div class="balance-display">
+      Your Balance: <span id="userBalance">KES 0</span>
+    </div>
+    <div id="picturesList" class="pics-list"></div>
+  </div>
+  <script src="pictures.js"></script>
+</body>
+</html>

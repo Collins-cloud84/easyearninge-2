@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EasyEarni-e² Registration</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="brand-title">EasyEarni-e<sup>2</sup></h1>
+      <p class="subtitle">Affiliate Platform Registration</p>
+      <form id="registrationForm" class="form">
+        <input type="text" id="username" placeholder="Username" required />
+        <input type="tel" id="phone" placeholder="Phone Number" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <select id="country" required>
+          <option value="">Select Country</option>
+          <option value="Kenya">Kenya</option>
+          <option value="Uganda">Uganda</option>
+          <option value="Tanzania">Tanzania</option>
+          <!-- Add more countries as needed -->
+        </select>
+        <div class="payment-info">
+          <p>
+            <strong>Registration Fee:</strong> <span class="highlight">200 KES</span>
+          </p>
+          <p>
+            <strong>Pay to:</strong> <span class="highlight">0740685187</span>
+          </p>
+        </div>
+        <button type="submit" class="register-btn">Register</button>
+      </form>
+      <div id="successMessage" class="success" style="display:none;">
+        Registration submitted! We will verify your payment and activate your account soon.
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
